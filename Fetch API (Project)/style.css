@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vmin;
+     background-image: url(/Currency.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     /* color: #ffddd2;  */
+}
+.dropdown i{
+           color: #c1121f; 
+           margin-top: 1.5rem;
+           font-size: 1.5rem;
+}
+.Container{
+           background-color: #5db9a7;
+           /* background-color: transparent; */
+           padding: 3rem;
+           border-radius: 2rem;
+           min-height: 37vh;
+           width: 40vh;
+           box-shadow: 5px 0px 50px -6px #006d77;
+}
+
+@media screen and (max-width: 1023px) {
+     .Container{
+          width: 360px;
+          height: 550px; 
+          position: absolute;    
+          top: 5rem; 
+       }
+       body{
+            height: 89rem;
+            overflow: hidden;
+       }
+}
+
+
+form{
+     margin: 2rem 0 1rem 0;
+}
+form input,select,button{
+          border: none;
+          outline: none;
+          width: 100%;
+          border-radius:0.75rem;
+}
+
+form input{
+           border: 2px solid none;
+           height: 2.5rem;
+           font-size:1.1rem;
+           padding-left: 1rem;
+           color: rgb(201, 9, 9);
+           font-weight: 550;
+           font-family: "EB Garamond", serif;
+           border: 2px solid #284b63;
+}
+/* input:hover{
+           border: 2px solid #284b63;
+} */
+.dropdown{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 2rem;
+}        
+.select-container img{
+          max-width: 2.5rem;    
+}
+.select-container{ 
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width:8rem;
+          border-radius: 0.6rem;
+          gap: 3px;
+          background-color:#edf6f9 ;
+         
+}
+.select-container select{
+          font-size: 1.1rem;
+          width: 4rem;
+          font-family: serif;
+}
+.msg{
+     margin: 3rem 0 2rem 0;
+     font-size: 1.5rem;
+     /* color: #05575e; */
+     color: #152ae4;
+     font-family: "EB Garamond", serif;
+}
+form button{
+            position: relative;
+            top: 1rem;
+            padding: 1rem;
+            margin-top: 2rem 0 2rem 0;
+            font-size: 1.3rem;
+            background-color: #0e4750;
+            color:#edf6f9 ;
+            font-family: "EB Garamond", serif;
+            box-shadow: 6px 6px 15px 3px rgba(14,71,80,0.48);
+           -webkit-box-shadow: 6px 6px 15px 3px rgba(14,71,80,0.48);
+           -moz-box-shadow: 6px 6px 15px 3px rgba(14,71,80,0.48);
+           cursor: pointer;
+           transition: all .3s;
+}
+button:hover{
+            /* transform: translateY(4px); */
+            transform: scale(1.03);
+}
+button:active{ 
+           transform: scale(.98);
+}
+.Container h2{
+            text-align: center;
+            font-size: 2rem;
+            font-family: "EB Garamond", serif;
+            color:#0e4750 ;
+}
+form p {
+        font-size: 1.3rem;
+        margin: 2px;
+        font-family: "EB Garamond", serif;
+        font-weight: bold;
+        color: #0e4750;
+}
+
+
+
+                     /* !......................................................... The End .............................................................. */
